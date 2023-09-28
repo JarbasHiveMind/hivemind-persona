@@ -50,5 +50,10 @@ setup(
     author='jarbasAi',
     install_requires=required("requirements.txt"),
     author_email='jarbasai@mailfence.com',
-    description='replace ovos-core with ovos-persona in your hivemind listener'
+    description='replace ovos-core with ovos-persona in your hivemind listener',
+    entry_points={
+        'console_scripts': [
+            'hivemind-persona=hivemind_persona.__main__:run'
+        ]
+    }
 )

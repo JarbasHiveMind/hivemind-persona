@@ -4,3 +4,6 @@ this is a hivemind Master node, but it is running ovos-persona instead of connec
 
 you can use this to expose chatbots and LLMs via hivemind, all clients should be compatible (eg, voice-sat)
 
+# Running
+
+`hivemind-persona --persona path/to/persona.json`
