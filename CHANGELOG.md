@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/JarbasHiveMind/hivemind-persona/tree/HEAD)
+
+[Full Changelog](https://github.com/JarbasHiveMind/hivemind-persona/compare/V0.0.0a2...HEAD)
+
+**Breaking changes:**
+
+- refactor!: uncouple agent and network protocol from hivemind protocol [\#1](https://github.com/JarbasHiveMind/hivemind-persona/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [V0.0.0a2](https://github.com/JarbasHiveMind/hivemind-persona/tree/V0.0.0a2) (2023-09-28)
 
 [Full Changelog](https://github.com/JarbasHiveMind/hivemind-persona/compare/34c6662dc762c5044d116496d23a52a3723b51cc...V0.0.0a2)
