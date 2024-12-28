@@ -53,7 +53,7 @@ setup(
     description='replace ovos-core with ovos-persona in your hivemind listener',
     entry_points={
         'console_scripts': [
-            'hivemind-persona=hivemind_persona.__main__:run'
+            'hivemind-persona=hivemind_persona.__main__:listen'
         ]
     }
 )
