@@ -1,2 +1,2 @@
-jarbas_hive_mind
-ovos-persona @ git+https://github.com/OpenVoiceOS/ovos-persona
+hivemind-core
+ovos-persona
