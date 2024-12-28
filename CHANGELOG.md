@@ -1,8 +1,16 @@
 # Changelog
 
-## [Unreleased](https://github.com/JarbasHiveMind/hivemind-persona/tree/HEAD)
+## [0.0.1a2](https://github.com/JarbasHiveMind/hivemind-persona/tree/0.0.1a2) (2024-12-28)
 
-[Full Changelog](https://github.com/JarbasHiveMind/hivemind-persona/compare/V0.0.0a2...HEAD)
+[Full Changelog](https://github.com/JarbasHiveMind/hivemind-persona/compare/V0.0.0a3...0.0.1a2)
+
+**Merged pull requests:**
+
+- fix:message history [\#2](https://github.com/JarbasHiveMind/hivemind-persona/pull/2) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.0.0a3](https://github.com/JarbasHiveMind/hivemind-persona/tree/V0.0.0a3) (2024-12-28)
+
+[Full Changelog](https://github.com/JarbasHiveMind/hivemind-persona/compare/V0.0.0a2...V0.0.0a3)
 
 **Breaking changes:**
 
