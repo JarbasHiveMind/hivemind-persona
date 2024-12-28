@@ -58,13 +58,13 @@ class PersonaProtocol(AgentProtocol):
             self.sessions[sess.session_id] = []
         self.sessions[sess.session_id].append({"role": "user", "content": utt})
 
-        answer = self.persona.chat(self.sessions[sess.session_id], lang=sess.lang)
+        answer = self.persona.chat(self.sessions[sess.session_id], lang=sess.lang).strip()
         peer = message.context["source"]
         client = self.clients[peer]
 
         msg = HiveMessage(
             HiveMessageType.BUS,
-            source_peer=peer,
+            source_peer=self.hm_protocol.peer,
             target_peers=[peer],
             payload=message.reply("speak", {"utterance": answer}),
         )
