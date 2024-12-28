@@ -69,3 +69,4 @@ class PersonaProtocol(AgentProtocol):
             payload=message.reply("speak", {"utterance": answer}),
         )
         client.send(msg)
+        self.sessions[sess.session_id].append({"role": "assistant", "content": answer})
