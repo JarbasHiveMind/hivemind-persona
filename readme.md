@@ -1,4 +1,6 @@
 # Hivemind FakeCroft Persona
+> ⚠️ this repository has been merged upstream directly into ovos-persona and is now managed via [hivemind-plugin-manager](https://github.com/JarbasHiveMind/hivemind-plugin-manager)
+___________
 
 this is a hivemind Master node, but it is running ovos-persona instead of connecting to ovos-core
 
